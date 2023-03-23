@@ -1,0 +1,73 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    
+    color: #6070ff;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    align-items: center;
+}
+
+.logo{
+    color: #6070ff;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    background-image: url(./images/mobile_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 87vh;
+    border-radius: 0 0 0 100px;
+    border-bottom: 2px solid #cfd8dc;
+}
+
+.headline-section{
+    margin: 20px;
+}
+
+.headline-section h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42px;
+    color: #172b4d;
+    /* display: flex;
+    align-items: center; */
+    margin-top: 114px;
+    margin-bottom: 0;
+}
+
+.headline-section p{
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+}
+
+.headline-section label{
+    color: #7f8cff;
+    font-weight: 700;
+}
+
+.headline-section ul{
+    display: flex;
+    padding-left: 0;
+}
+
+.icons{
+    color: #505f79;
+    padding: 20px 20px 0 0;
+}
