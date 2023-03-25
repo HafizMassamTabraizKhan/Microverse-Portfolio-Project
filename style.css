@@ -4,7 +4,7 @@
   text-decoration: none;
 }
 
-body{
+body {
   background: #e5e5e5;
 }
 
@@ -75,7 +75,7 @@ header {
   padding: 20px 20px 0 0;
 }
 
-.projects-portfolio{
+.projects-portfolio {
   display: grid;
   justify-content: center;
   border-radius: 16px;
@@ -85,7 +85,7 @@ header {
   padding-bottom: 114px;
 }
 
-.project-card{
+.project-card {
   display: flex;
   flex-direction: column;
   padding: 5%;
@@ -94,11 +94,11 @@ header {
   border: 1px solid #dfe1e6;
 }
 
-.card-margin{
+.card-margin {
   margin-top: 100px;
 }
 
-.project-detail h3{
+.project-detail h3 {
   font-size: 30px;
   line-height: 44px;
   color: #172b4d;
@@ -106,37 +106,37 @@ header {
   width: 250px;
 }
 
-.role{
+.role {
   display: flex;
   justify-content: space-between;
   padding-left: 0;
   padding-right: 2%;
 }
 
-.role li{
+.role li {
   color: #7a869a;
   font-size: 15px;
 }
 
-.role a{
+.role a {
   color: #344563;
   font-weight: 600;
 }
 
-.project-detail p{
+.project-detail p {
   color: #344563;
   font-size: 15px;
   line-height: 24px;
 }
 
-.skills{
+.skills {
   display: grid;
   grid-template-columns: auto auto auto;
   padding-left: 0;
   font-size: 12px;
 }
 
-.skills li{
+.skills li {
   color: #6070ff;
   padding: 4px 12px;
   line-height: 16px;
@@ -148,7 +148,7 @@ header {
   font-weight: bold;
 }
 
-.btn{
+.btn {
   margin-top: 12px;
   padding: 12px;
   background: #fff;
@@ -159,17 +159,17 @@ header {
   font-weight: 600;
 }
 
-.about-container{
+.about-container {
   background: #e5e5e5;
 }
 
-.about{
+.about {
   background: #fff;
   border-top-right-radius: 100px;
   padding: 24px;
 }
 
-.about h3{
+.about h3 {
   margin-top: 90px;
   margin-bottom: 0;
   font-size: 38px;
@@ -178,12 +178,12 @@ header {
   font-weight: 800;
 }
 
-.dropdown{
+.dropdown {
   padding-left: 0;
   margin-right: 58px;
 }
 
-.open{
+.open {
   display: flex;
   justify-content: space-between;
   margin-left: 0;
@@ -191,29 +191,29 @@ header {
   margin-bottom: 40px;
 }
 
-.close{
+.close {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-hr{
-  color: #DFE1E6;
+hr {
+  color: #dfe1e6;
 }
 
-.open label{
+.open label {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   color: #000;
 }
 
-.arrow{
-  color: #ACB7C3;
+.arrow {
+  color: #acb7c3;
 }
 
-.languages{
+.languages {
   display: flex;
   margin-top: 12px;
   background: #f7f7f9;
@@ -223,7 +223,7 @@ hr{
   border-radius: 8px;
 }
 
-.languages p{
+.languages p {
   margin-left: 16px;
   font-size: 15px;
   line-height: 20px;
