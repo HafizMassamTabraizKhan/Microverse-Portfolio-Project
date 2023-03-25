@@ -68,6 +68,7 @@ header {
 .social-media-icons {
   display: flex;
   padding-left: 0;
+  font-size: 1.5rem
 }
 
 .icons {
@@ -130,8 +131,7 @@ header {
 }
 
 .skills {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
   padding-left: 0;
   font-size: 12px;
 }
@@ -159,6 +159,12 @@ header {
   font-weight: 600;
 }
 
+.btn:hover {
+  color: #fff;
+  background: #396df2;
+  transition: 0.5s;
+}
+
 .about-container {
   background: #e5e5e5;
 }
@@ -178,9 +184,13 @@ header {
   font-weight: 800;
 }
 
+.menu-list{
+  padding-left: 0;
+}
+
 .dropdown {
   padding-left: 0;
-  margin-right: 58px;
+  margin-right: 8px;
 }
 
 .open {
@@ -188,29 +198,31 @@ header {
   justify-content: space-between;
   margin-left: 0;
   margin-top: 45px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  padding: 1rem;
 }
 
 .close {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 1rem;
 }
 
 hr {
   color: #dfe1e6;
 }
 
-.open label {
+.dropdown-label {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 24px;
   color: #000;
 }
 
 .arrow {
   color: #acb7c3;
+  margin-right: 30px;
 }
 
 .languages {
@@ -221,6 +233,8 @@ hr {
   width: 303px;
   height: 66.72px;
   border-radius: 8px;
+  padding-left: 0.5rem;
+  margin-left: 12px;
 }
 
 .languages p {
