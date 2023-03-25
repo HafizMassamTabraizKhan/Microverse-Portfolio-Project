@@ -202,6 +202,10 @@ header {
   padding: 1rem;
 }
 
+.dropdown-list {
+  padding-left: 0;
+}
+
 .close {
   display: flex;
   justify-content: space-between;
@@ -218,6 +222,11 @@ hr {
   font-weight: 600;
   line-height: 24px;
   color: #000;
+}
+
+.down-arrow {
+  color: #acb7c3;
+  margin-right: 22px;
 }
 
 .arrow {
