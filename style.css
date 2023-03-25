@@ -68,7 +68,7 @@ header {
 .social-media-icons {
   display: flex;
   padding-left: 0;
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 .icons {
@@ -184,7 +184,7 @@ header {
   font-weight: 800;
 }
 
-.menu-list{
+.menu-list {
   padding-left: 0;
 }
 
