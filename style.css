@@ -1,5 +1,5 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   list-style: none;
   text-decoration: none;
 }
@@ -173,6 +173,7 @@ header {
   background: #fff;
   border-top-right-radius: 100px;
   padding: 24px;
+  padding-bottom: 40%;
 }
 
 .about h3 {
@@ -251,4 +252,72 @@ hr {
   font-size: 15px;
   line-height: 20px;
   color: #253858;
+}
+
+.about-and-form {
+  background-color: #fff;
+}
+
+.form {
+  background: #6070ff;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 100px;
+  color: #fff;
+  align-items: center;
+}
+
+.contact-form {
+  margin-top: 10%;
+  text-align: center;
+  background-image: url(./images/contact-form-shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.form-container {
+  margin: 5%;
+}
+
+.contact-form h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 20%;
+  margin-bottom: 0;
+}
+
+.contact-form p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 5%;
+}
+
+form {
+  margin-top: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+form input {
+  height: 48px;
+  border-radius: 8px;
+  padding-left: 16px;
+  border: 1px solid white;
+}
+
+form textarea {
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid white;
+  padding: 5% 16px;
+}
+
+form button {
+  width: 40%;
 }
