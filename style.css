@@ -396,12 +396,13 @@ form button {
   }
 
   .project-image {
-    width: 435px;
+    width: 45%;
     height: 435px;
   }
 
   .project-detail {
     padding: 2% 5% 0 5%;
+    width: 45%;
   }
 
   .project-card h3 {
