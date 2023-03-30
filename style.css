@@ -15,7 +15,7 @@ header {
   background-color: #fff;
 }
 
-.toolbar {
+nav {
   display: flex;
   justify-content: space-between;
   padding: 3%;
@@ -173,7 +173,7 @@ header {
   background: #fff;
   border-top-right-radius: 100px;
   padding: 24px;
-  padding-bottom: 40%;
+  padding-bottom: 15%;
 }
 
 .about h3 {
@@ -320,4 +320,160 @@ form textarea {
 
 form button {
   width: 40%;
+}
+
+.desktop-menu {
+  display: none;
+}
+
+/* ---- Desktop Version ---- */
+
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  nav {
+    margin: 0 10%;
+    padding: 1%;
+  }
+
+  .desktop-menu {
+    display: flex;
+  }
+
+  .menu-option {
+    color: #344563;
+    margin-right: 32px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .content {
+    background-image: url(./images/Header-bg.png);
+    background-size: contain;
+  }
+
+  .headline-section {
+    margin: 17% 20%;
+  }
+
+  .headline-section h1 {
+    margin-top: 0;
+  }
+
+  .text {
+    margin-top: 3%;
+  }
+
+  .projects-portfolio {
+    margin: 8%;
+    margin-bottom: 0;
+  }
+
+  .about {
+    display: flex;
+    padding: 0 5% 10% 5%;
+  }
+
+  .project-description {
+    width: 50%;
+    padding: 2%;
+  }
+
+  .menu-list {
+    width: 50%;
+    margin: 0;
+  }
+
+  .project-card {
+    flex-direction: row;
+    padding: 2%;
+  }
+
+  .project-card:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .project-image {
+    width: 45%;
+    height: 435px;
+  }
+
+  .project-detail {
+    padding: 2% 5% 0 5%;
+    width: 45%;
+  }
+
+  .project-card h3 {
+    margin: 0;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .role li {
+    font-size: 18px;
+  }
+
+  .project-detail p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .btn {
+    line-height: 24px;
+    align-self: center;
+  }
+
+  .card1 {
+    margin-top: 10%;
+    grid-row: 3;
+  }
+
+  .card2 {
+    grid-row: 4;
+  }
+
+  .card3 {
+    margin-top: 0;
+  }
+
+  .languages {
+    display: inline-block;
+    width: 122px;
+    height: 120px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin-top: 36px;
+    padding-top: 1%;
+  }
+
+  .languages p {
+    margin-left: 5px;
+  }
+
+  .open {
+    margin-top: 100px;
+  }
+
+  .contact-form {
+    margin-top: 0;
+  }
+
+  .form-container {
+    margin: 0 28% 15% 28%;
+  }
+
+  form {
+    margin: 7% 13% 0 13%;
+  }
+
+  form input {
+    border-radius: 0;
+  }
+
+  form textarea {
+    border-radius: 0;
+    padding: 4% 14px;
+  }
 }
