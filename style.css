@@ -24,7 +24,13 @@ nav {
 
 .logo {
   color: #6070ff;
+  transition: all 1s;
 }
+
+.logo:hover {
+  transform: rotate(360deg);
+}
+
 
 .content {
   display: flex;
