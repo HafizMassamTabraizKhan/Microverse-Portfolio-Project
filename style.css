@@ -31,7 +31,6 @@ nav {
   transform: rotate(360deg);
 }
 
-
 .content {
   display: flex;
   flex-direction: column;
