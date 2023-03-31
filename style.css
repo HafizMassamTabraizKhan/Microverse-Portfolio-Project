@@ -31,7 +31,6 @@ nav {
   transform: rotate(360deg);
 }
 
-
 .content {
   display: flex;
   flex-direction: column;
@@ -75,11 +74,17 @@ nav {
   display: flex;
   padding-left: 0;
   font-size: 1.5rem;
+  transition-duration: 0.5s;
 }
 
 .icons {
   color: #505f79;
   padding: 20px 20px 0 0;
+}
+
+.social-media-icons li:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
 }
 
 .projects-portfolio {
