@@ -24,6 +24,11 @@ nav {
 
 .logo {
   color: #6070ff;
+  transition: all 1s;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
 }
 
 .content {
@@ -69,6 +74,7 @@ nav {
   display: flex;
   padding-left: 0;
   font-size: 1.5rem;
+  transition-duration: 0.5s;
 }
 
 .icons {
@@ -157,6 +163,11 @@ nav {
   border-radius: 8px;
   border: 1px solid #396df2;
   font-weight: 600;
+}
+
+.social-media-icons li:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
 }
 
 .btn:hover {
