@@ -93,7 +93,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Coming Soon
+https://www.loom.com/share/0a47b4119741414699c515f34802238c
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
