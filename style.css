@@ -31,6 +31,10 @@ nav {
   transform: rotate(360deg);
 }
 
+.show-menu-modal {
+  
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -351,6 +355,10 @@ form button {
 
   .desktop-menu {
     display: flex;
+  }
+
+  #close-menu {
+    display: none;
   }
 
   .menu-option {
