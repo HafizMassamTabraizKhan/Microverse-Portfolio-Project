@@ -93,8 +93,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/
-https://www.loom.com/share/0a47b4119741414699c515f34802238c
+You can find a live demo in [HERE](https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
