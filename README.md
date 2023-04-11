@@ -60,7 +60,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello microverse project <a name="about-project"></a>
+# 📖 Microverse Portfolio Project <a name="about-project"></a>
 
 > This is my first microverse project. I created using HTML and CSS.
 
@@ -92,8 +92,6 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,6 +152,12 @@ Coming soon
 - GitHub: [@githubhandle](https://github.com/HafizMassamTabraizKhan)
 - Twitter: [@twitterhandle](https://twitter.com/MassamTabraiz)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/hafiz-massam-tabraiz-khan-167644255/)
+
+👤 **Solomon Afutu**
+
+- GitHub: [@githubhandle](https://github.com/SolomonTheCoder)
+- Twitter: [@twitterhandle](https://twitter.com/SolomonAfutu)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/solomon-afutu-164b95255/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

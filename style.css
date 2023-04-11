@@ -31,6 +31,45 @@ nav {
   transform: rotate(360deg);
 }
 
+.desktop-menu {
+  display: none;
+}
+
+.active .menu-icon {
+  display: none;
+}
+
+.show-menu-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #6070ff;
+  width: 85vw;
+  height: 100vh;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  gap: 40px;
+  opacity: 75%;
+  z-index: 1;
+}
+
+#close-menu {
+  align-self: flex-end;
+}
+
+.menu-option {
+  color: white;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.active .blur-bg {
+  filter: blur(5px);
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -84,12 +123,15 @@ nav {
 
 .projects-portfolio {
   display: grid;
-  justify-content: center;
+  grid-template-columns: auto;
   border-radius: 16px;
-  width: 85%;
-  margin: 100px 0 0 28px;
-  height: auto;
-  padding-bottom: 114px;
+  gap: 80px;
+  margin-block: 100px;
+  margin-inline: 20px;
+}
+
+.projects-portfolio img {
+  width: 95%;
 }
 
 .project-card {
@@ -99,10 +141,7 @@ nav {
   background: #fff;
   border-radius: 16px;
   border: 1px solid #dfe1e6;
-}
-
-.card-margin {
-  margin-top: 100px;
+  align-items: center;
 }
 
 .project-detail h3 {
@@ -138,6 +177,8 @@ nav {
 
 .skills {
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   padding-left: 0;
   font-size: 12px;
 }
@@ -148,7 +189,6 @@ nav {
   line-height: 16px;
   background: #ebebff;
   border-radius: 8px;
-  margin-right: 8px;
   text-align: center;
   letter-spacing: 0.03em;
   font-weight: bold;
@@ -333,10 +373,6 @@ form button {
   width: 40%;
 }
 
-.desktop-menu {
-  display: none;
-}
-
 /* ---- Desktop Version ---- */
 
 @media screen and (min-width: 768px) {
@@ -351,6 +387,10 @@ form button {
 
   .desktop-menu {
     display: flex;
+  }
+
+  #close-menu {
+    display: none;
   }
 
   .menu-option {
@@ -380,6 +420,10 @@ form button {
   .projects-portfolio {
     margin: 8%;
     margin-bottom: 0;
+  }
+
+  .projects-portfolio img {
+    width: 50%;
   }
 
   .about {
@@ -437,16 +481,16 @@ form button {
   }
 
   .card1 {
-    margin-top: 10%;
     grid-row: 3;
   }
 
   .card2 {
+    margin-bottom: 100px;
     grid-row: 4;
   }
 
   .card3 {
-    margin-top: 0;
+    margin-top: 20px;
   }
 
   .languages {
