@@ -125,7 +125,7 @@ nav {
   display: grid;
   grid-template-columns: auto;
   border-radius: 16px;
-  gap: 20px;
+  gap: 80px;
   margin-block: 100px;
   margin-inline: 20px;
 }
@@ -482,16 +482,16 @@ form button {
   }
 
   .card1 {
-    margin-top: 10%;
     grid-row: 3;
   }
 
   .card2 {
+    margin-bottom: 100px;
     grid-row: 4;
   }
 
   .card3 {
-    margin-top: 0;
+    margin-top: 20px;
   }
 
   .languages {
