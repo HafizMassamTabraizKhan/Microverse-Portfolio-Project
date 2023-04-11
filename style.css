@@ -31,8 +31,43 @@ nav {
   transform: rotate(360deg);
 }
 
+.desktop-menu {
+  display: none;
+}
+
+.active .menu-icon {
+  display: none;
+}
+
 .show-menu-modal {
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #6070ff;
+  width: 85vw;
+  height: 100vh;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  gap: 40px;
+  opacity: 75%;  
+  z-index: 1;
+}
+
+#close-menu{
+  align-self: flex-end;
+}
+
+.menu-option{
+  color: white;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.active .blur-bg{
+  filter: blur(5px);
 }
 
 .content {
@@ -88,12 +123,15 @@ nav {
 
 .projects-portfolio {
   display: grid;
-  justify-content: center;
+  grid-template-columns: auto;
   border-radius: 16px;
-  width: 85%;
-  margin: 100px 0 0 28px;
+  margin: 100px 0 100px 0;
   height: auto;
-  padding-bottom: 114px;
+  overflow: hidden;
+}
+
+.card-container{
+  margin: 5%;
 }
 
 .project-card {
@@ -103,6 +141,7 @@ nav {
   background: #fff;
   border-radius: 16px;
   border: 1px solid #dfe1e6;
+  width: 50%;
 }
 
 .card-margin {
@@ -142,6 +181,8 @@ nav {
 
 .skills {
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   padding-left: 0;
   font-size: 12px;
 }
@@ -152,7 +193,6 @@ nav {
   line-height: 16px;
   background: #ebebff;
   border-radius: 8px;
-  margin-right: 8px;
   text-align: center;
   letter-spacing: 0.03em;
   font-weight: bold;
@@ -337,9 +377,6 @@ form button {
   width: 40%;
 }
 
-.desktop-menu {
-  display: none;
-}
 
 /* ---- Desktop Version ---- */
 
