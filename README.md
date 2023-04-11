@@ -84,8 +84,10 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- Added index.html file.
-- Added style.css file.
+- Portfolio webpage
+- Mobile first development
+- Responsiveness and flexibility for any screen size
+- Fast access to social media and other ways of contact
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
