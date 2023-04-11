@@ -125,13 +125,13 @@ nav {
   display: grid;
   grid-template-columns: auto;
   border-radius: 16px;
-  margin: 100px 0 100px 0;
-  height: auto;
-  overflow: hidden;
+  gap: 20px;
+  margin-block: 100px;
+  margin-inline: 20px;
 }
 
-.card-container{
-  margin: 5%;
+.projects-portfolio img {
+  width: 95%;
 }
 
 .project-card {
@@ -141,11 +141,7 @@ nav {
   background: #fff;
   border-radius: 16px;
   border: 1px solid #dfe1e6;
-  width: 50%;
-}
-
-.card-margin {
-  margin-top: 100px;
+  align-items: center;
 }
 
 .project-detail h3 {
@@ -425,6 +421,10 @@ form button {
   .projects-portfolio {
     margin: 8%;
     margin-bottom: 0;
+  }
+
+  .projects-portfolio img {
+    width: 50%;
   }
 
   .about {
