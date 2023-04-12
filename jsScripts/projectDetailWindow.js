@@ -74,3 +74,65 @@ const works = [
   ];
 
   
+const projectBtns = document.querySelectorAll('.work .work-btn');
+const bodyTag = document.querySelector('body');
+function projectModal(e) {
+  const workCardInf = works[parseInt(e.target.dataset.workbtn, 10)];
+  const projectOverlay = document.createElement('div');
+  projectOverlay.classList.add('project-overlay-wrapper');
+  let modalContent = `
+  <div class= "project-overlay-wrapper">
+      <div class= "project-overlay work-card">
+          <div class="work-title-container">
+              <h3>${workCardInf.name}</h3>
+              <span class="work-clase">X</span>
+          </div>
+          <ul class="work-cat">`;
+              for (let i = 0; i < workCardInf.cat.length; i += 1)
+              {
+                  if(i === 0)
+                  modalContent += `<li class="cat-title">${workCardInf.cat[i]}</li>`;
+                  else
+                  modalContent += `<li class="cat-descrip">${workCardInf.cat[i]}</li>`;
+                  
+              }
+              modalContent += 
+          `</ul>
+      
+          <img src="${workCardInf.snapshot}" alt="${workCardInf.name} Project, ${workCardInf.cat[2]}" class="work-image"/>
+          <div class="work-card-body">
+              <p class="work-descrip">
+              ${workCardInf.description}
+              </p>
+              <div class="work-title-footer">
+                  <ul class="work-langs">`;
+                      workCardInf.tags.forEach((tag) => {
+                          modalContent += `<li class="work-lang">${tag}</li>`;
+                      });
+                  
+                      modalContent += 
+                  `</ul>
+                  <div class="work-btns">`;
+                      for (let i = 0; i < 2; i += 1) {
+                          modalContent += 
+                          `<button class="work-btn">
+                              <a href="${workCardInf.connectionsURL[i]}" target="_blank">${workCardInf.connectionstext[i]}</a> 
+                              <img src="${workCardInf.connectionsBtn[i]}" alt="${workCardInf.connectionstext[i]}"/>
+                          </button>`;
+                      }
+                      modalContent += 
+                  `</div>
+              </div>
+          </div>
+      </div>
+  </div>`;
+  projectOverlay.innerHTML = modalContent;
+  bodyTag.appendChild(projectOverlay);
+  const closeBtn = document.querySelector('.work-clase');
+  const workModal = document.querySelector('.project-overlay-wrapper');
+  closeBtn.addEventListener('click', () => { 
+      body.removeChild(workModal);
+  });
+}
+projectBtns.forEach((btn) => btn.addEventListener('click', projectModal));
+  
