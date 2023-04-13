@@ -205,28 +205,46 @@ nav {
   font-weight: 600;
 }
 
-.project-overlay-wrapper{
+.about h3 {
+  margin-top: 90px;
+  margin-bottom: 0;
+  font-size: 38px;
+  line-height: 52px;
+  color: #172b4d;
+  font-weight: 800;
+}
+
+.contact-form h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 20%;
+  margin-bottom: 0;
+}
+
+.project-overlay-wrapper {
   position: fixed;
   width: 93vw;
   height: 100vh;
-  background:  #c1c7d0f0;
+  background: #c1c7d0f0;
   top: 0;
   left: 0;
   padding: 3%;
 }
 
-.project-overlay.project-card{
+.project-overlay.project-card {
   padding: 5%;
 }
 
-.work-title-container{
+.work-title-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
   align-items: center;
 }
 
-.work-title-container.project-detail h3{
+.work-title-container.project-detail h3 {
   margin-top: 0;
   width: auto;
 }
@@ -273,7 +291,7 @@ nav {
   align-items: center;
 }
 
-.work-btn a{
+.work-btn a {
   color: #396df2;
 }
 
@@ -297,15 +315,6 @@ nav {
   border-top-right-radius: 100px;
   padding: 24px;
   padding-bottom: 15%;
-}
-
-.about h3 {
-  margin-top: 90px;
-  margin-bottom: 0;
-  font-size: 38px;
-  line-height: 52px;
-  color: #172b4d;
-  font-weight: 800;
 }
 
 .menu-list {
@@ -403,15 +412,6 @@ hr {
   margin: 5%;
 }
 
-.contact-form h3 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  margin-top: 20%;
-  margin-bottom: 0;
-}
-
 .contact-form p {
   font-style: normal;
   font-weight: 400;
@@ -489,6 +489,11 @@ form button {
     margin-top: 3%;
   }
 
+  .project-image {
+    width: 45%;
+    height: 435px;
+  }
+
   .projects-portfolio {
     margin: 8%;
     margin-bottom: 0;
@@ -520,11 +525,6 @@ form button {
 
   .project-card:nth-child(even) {
     flex-direction: row-reverse;
-  }
-
-  .project-image {
-    width: 45%;
-    height: 435px;
   }
 
   .project-detail {
