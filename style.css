@@ -130,7 +130,7 @@ nav {
   margin-inline: 20px;
 }
 
-.projects-portfolio img {
+.projects-portfolio .project-image {
   width: 95%;
 }
 
@@ -203,6 +203,78 @@ nav {
   border-radius: 8px;
   border: 1px solid #396df2;
   font-weight: 600;
+}
+
+.project-overlay-wrapper{
+  position: fixed;
+  width: 93vw;
+  height: 100vh;
+  background:  #c1c7d0f0;
+  top: 0;
+  left: 0;
+  padding: 3%;
+}
+
+.project-overlay.project-card{
+  padding: 5%;
+}
+
+.work-title-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.work-title-container.project-detail h3{
+  margin-top: 0;
+  width: auto;
+}
+
+.work-cat.role {
+  gap: 10px;
+  align-self: flex-start;
+  margin: 3%;
+}
+
+.work-image {
+  width: 95%;
+  object-fit: cover;
+}
+
+.work-card-body .work-descrip {
+  overflow: auto;
+  max-height: 22vh;
+  line-height: 200%;
+}
+
+.work-langs {
+  margin: 0;
+}
+
+.work-close {
+  cursor: pointer;
+}
+
+.work-close:hover {
+  transform: scale(2);
+  transition: 0.3s;
+}
+
+.work-btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.work-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.work-btn a{
+  color: #396df2;
 }
 
 .social-media-icons li:hover {
@@ -422,7 +494,7 @@ form button {
     margin-bottom: 0;
   }
 
-  .projects-portfolio img {
+  .projects-portfolio .project-image {
     width: 50%;
   }
 
@@ -491,6 +563,49 @@ form button {
 
   .card3 {
     margin-top: 20px;
+  }
+
+  .project-overlay.project-card {
+    flex-direction: column;
+    padding: 1%;
+  }
+
+  .work-title-container.project-detail {
+    width: 95%;
+    padding: 0;
+  }
+
+  .work-cat.role {
+    margin-inline: 3%;
+    margin-block: 1%;
+  }
+
+  .work-image {
+    width: 70%;
+    height: 43vh;
+  }
+
+  .work-card-body.project-detail {
+    display: flex;
+    gap: 40px;
+    padding: 25px;
+    width: 95%;
+    align-items: center;
+  }
+
+  .work-card-body .work-descrip {
+    max-width: 55vw;
+    max-height: 18vh;
+    margin: 0;
+  }
+
+  .work-btns {
+    padding-block: 5px;
+    gap: 8px;
+  }
+
+  .work-btn:hover a {
+    color: #fff;
   }
 
   .languages {
