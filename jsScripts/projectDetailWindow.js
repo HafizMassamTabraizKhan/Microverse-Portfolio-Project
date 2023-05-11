@@ -23,7 +23,7 @@ const works = [
       and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
       releawn printer took a galley of type and scrambled it 1960s.`,
     tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/portfolio2.png',
+    snapshot: './images/Portfolio2.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
     connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
@@ -41,7 +41,7 @@ const works = [
       and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
       releawn printer took a galley of type and scrambled it 1960s.`,
     tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/portfolio3.png',
+    snapshot: './images/Portfolio3.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
     connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
@@ -59,7 +59,7 @@ const works = [
       and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
       releawn printer took a galley of type and scrambled it 1960s.`,
     tags: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
-    snapshot: './images/portfolio4.png',
+    snapshot: './images/Portfolio4.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
     connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
@@ -88,7 +88,7 @@ const works2 = [
     description:
       'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/portfolio2.png',
+    snapshot: './images/Portfolio2.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
     connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
@@ -100,7 +100,7 @@ const works2 = [
     description:
       'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/portfolio3.png',
+    snapshot: './images/Portfolio3.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
     connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
@@ -112,7 +112,7 @@ const works2 = [
     description:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     tags: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
-    snapshot: './images/portfolio4.png',
+    snapshot: './images/Portfolio4.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
     connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
