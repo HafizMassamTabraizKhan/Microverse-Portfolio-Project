@@ -1,21 +1,15 @@
 const works = [
   {
-    name: 'Tonic',
+    name: 'ICPC',
     cat: ['CANOPY', './images/Dot.png', 'Back End Dev', './images/Dot.png', 2015],
     description:
-        `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
-        scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-        printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text 
-        of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled 
-        it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
+        `It is a simple website design about a programming contest to showcase my Html and css skills.`,
     tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/portfolio1.png',
+    snapshot: './images/MyPortfolio1.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
-    connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
-      'https://github.com/HafizMassamTabraizKhan/Microverse-Portfolio-Project'],
+    connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Capstone-Project-1/',
+      'https://github.com/HafizMassamTabraizKhan/Microverse-Capstone-Project-1'],
   },
   {
     name: 'Multi-Post Stories',
@@ -75,16 +69,18 @@ const works = [
 
 const works2 = [
   {
-    name: 'Tonic',
+    name: 'ICPC',
     cat: ['CANOPY', './images/Dot.png', 'Back End Dev', './images/Dot.png', 2015],
     description:
-        'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        `It is a simple website about a programming contest known as the "International Collegiate Programming Contest(ICPC)". 
+        This website consists of  two pages only one is the  "Home Page" and the second is the "About Page", both pages comprise of
+        different sections like "Main Program", "Featured Speakers", "Sponsors", "Past Events", etc.`,
     tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/portfolio1.png',
+    snapshot: './images/MyPortfolio1.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
-    connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
-      'https://github.com/HafizMassamTabraizKhan/Microverse-Portfolio-Project'],
+    connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Capstone-Project-1/',
+      'https://github.com/HafizMassamTabraizKhan/Microverse-Capstone-Project-1'],
   },
   {
     name: 'Multi-Post Stories',
