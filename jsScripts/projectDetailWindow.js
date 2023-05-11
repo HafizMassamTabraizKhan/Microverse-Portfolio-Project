@@ -3,7 +3,7 @@ const works = [
     name: 'ICPC',
     cat: ['CANOPY', './images/Dot.png', 'Back End Dev', './images/Dot.png', 2015],
     description:
-        `It is a simple website design about a programming contest to showcase my Html and css skills.`,
+        'It is a simple website design about a programming contest to showcase my Html and css skills.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     snapshot: './images/MyPortfolio1.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
