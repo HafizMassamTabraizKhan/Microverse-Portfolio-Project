@@ -517,11 +517,6 @@ form button {
     margin: 0;
   }
 
-  .project-card {
-    flex-direction: row;
-    padding: 2%;
-  }
-
   .project-card:nth-child(even) {
     flex-direction: row-reverse;
   }
