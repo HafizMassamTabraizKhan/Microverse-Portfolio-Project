@@ -4,8 +4,26 @@
   text-decoration: none;
 }
 
+/* ::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #78777791;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b1b0b091;
+} */
+
 body {
   background: #e5e5e5;
+  margin: 0;
 }
 
 header {
@@ -164,6 +182,10 @@ nav {
   font-size: 15px;
 }
 
+button a {
+  color: #396df2;
+}
+
 .role a {
   color: #344563;
   font-weight: 600;
@@ -219,7 +241,7 @@ nav {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  margin-top: 20%;
+  margin-top: 29%;
   margin-bottom: 0;
 }
 
@@ -336,7 +358,7 @@ nav {
 }
 
 .dropdown-list {
-  padding-left: 0;
+  padding-left: 1rem;
 }
 
 .close {
@@ -420,7 +442,7 @@ hr {
 }
 
 form {
-  margin-top: 30%;
+  margin-top: 12%;
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -447,6 +469,12 @@ form button {
 /* ---- Desktop Version ---- */
 
 @media screen and (min-width: 768px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 65px;
+  }
+
   .menu-icon {
     display: none;
   }
@@ -458,6 +486,7 @@ form button {
 
   .desktop-menu {
     display: flex;
+    margin: 0;
   }
 
   #close-menu {
@@ -517,7 +546,7 @@ form button {
     margin: 0;
   }
 
-  .project-card{
+  .project-card {
     flex-direction: row;
   }
 
@@ -628,8 +657,19 @@ form button {
     margin-top: 0;
   }
 
+  .contact-form h3 {
+    margin-top: 7%;
+  }
+
+  .form-content p {
+    padding-inline: 6%;
+
+    /* margin: 3%; */
+    font-size: 18px;
+  }
+
   .form-container {
-    margin: 0 28% 15% 28%;
+    margin: 0 28% 7% 28%;
   }
 
   form {

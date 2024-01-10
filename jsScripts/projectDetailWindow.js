@@ -1,122 +1,118 @@
 const works = [
   {
-    name: 'ICPC',
-    cat: ['CANOPY', './images/Dot.png', 'Back End Dev', './images/Dot.png', 2015],
+    name: 'Space Travelers\'Hub',
+    cat: ['MICROVERSE', './images/Dot.png', 'Front-End Dev', './images/Dot.png', 2023],
     description:
-        'It is a simple website design about a programming contest to showcase my Html and css skills.',
+      `This is the Space Travel Hub website created with React using CRA CLI. It describes 
+      a number of features related to the rockets, and missions associated with providing 
+      commercial and scientific space travel services.`,
+    tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+    snapshot: './images/spaceTravelers.jpeg',
+    connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
+    connectionstext: ['See live', 'See source'],
+    connectionsURL: ['https://spacetravelers-vp0l.onrender.com/',
+      'https://github.com/HafizMassamTabraizKhan/spaceTravelers'],
+  },
+  {
+    name: 'ICPC',
+    cat: ['MICROVERSE', './images/Dot.png', 'Front-End Dev', './images/Dot.png', 2023],
+    description:
+      `It is a simple website about a programming contest known as the "International Collegiate Programming Contest(ICPC)". 
+      This website consists of  two pages only one is the  "Home Page" and the second is the "About Page", both pages comprise of
+      different sections like "Main Program", "Featured Speakers", "Sponsors", "Past Events", etc.`,
     tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/MyPortfolio1.png',
+    snapshot: './images/icpc.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
     connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Capstone-Project-1/',
       'https://github.com/HafizMassamTabraizKhan/Microverse-Capstone-Project-1'],
   },
   {
-    name: 'Multi-Post Stories',
-    cat: ['FACEBOOK', './images/Dot.png', 'Full Stack Dev', './images/Dot.png', 2015],
+    name: 'Test Drive Zone',
+    cat: ['MICROVERSE', './images/Dot.png', 'Full-stack Dev', './images/Dot.png', 2023],
     description:
-      `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
-      scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-      took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing 
-      and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
-      releawn printer took a galley of type and scrambled it 1960s.`,
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/Portfolio2.png',
+      `This app is build using React and Rails. It allows users to schedule test drive 
+      appointments for cars. Users can add, delete, and view details of available cars, 
+      making it easy to manage appointments for test drives.`,
+    tags: ['Rails', 'JavaScript', 'React', 'Redux', 'API', 'PostgreSQL'],
+    snapshot: './images/testDrive.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
-    connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
-      'https://github.com/HafizMassamTabraizKhan/Microverse-Portfolio-Project'],
+    connectionsURL: ['https://car-rent-swa4.onrender.com/',
+      'https://github.com/HafizMassamTabraizKhan/book-an-appointment-back-end'],
   },
   {
-    name: 'Facebook 360',
-    cat: ['FACEBOOk', './images/Dot.png', 'Full Stack Dev', './images/Dot.png', 2015],
+    name: 'Ecommerce Shop',
+    cat: ['MICROVERSE', './images/Dot.png', 'Front-End Dev', './images/Dot.png', 2023],
     description:
-      `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
-      scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-      took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing 
-      and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
-      releawn printer took a galley of type and scrambled it 1960s.`,
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/Portfolio3.png',
+      `Ecommerce Shop is a website built using React and Redux. It will display products 
+      from different categories retrieved from an API. You can also explore the details of 
+      each product and filter them via their categories.`,
+    tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'API'],
+    snapshot: './images/ecommerceShop.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
-    connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
-      'https://github.com/HafizMassamTabraizKhan/Microverse-Portfolio-Project'],
-  },
-  {
-    name: 'Uber Navigation',
-    cat: ['Uber', './images/Dot.png', 'Lead Developer', './images/Dot.png', 2018],
-    description:
-      `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
-      scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-      took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing 
-      and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
-      releawn printer took a galley of type and scrambled it 1960s.`,
-    tags: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
-    snapshot: './images/Portfolio4.png',
-    connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
-    connectionstext: ['See live', 'See source'],
-    connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
-      'https://github.com/HafizMassamTabraizKhan/Microverse-Portfolio-Project'],
+    connectionsURL: ['https://ecommerce-shop-csp8.onrender.com/',
+      'https://github.com/HafizMassamTabraizKhan/react-capstone-project'],
   },
 ];
 
 const works2 = [
   {
-    name: 'ICPC',
-    cat: ['CANOPY', './images/Dot.png', 'Back End Dev', './images/Dot.png', 2015],
+    name: 'Space Travelers\'Hub',
+    cat: ['MICROVERSE', './images/Dot.png', 'Front-End Dev', './images/Dot.png', 2023],
     description:
-        `It is a simple website about a programming contest known as the "International Collegiate Programming Contest(ICPC)". 
-        This website consists of  two pages only one is the  "Home Page" and the second is the "About Page", both pages comprise of
-        different sections like "Main Program", "Featured Speakers", "Sponsors", "Past Events", etc.`,
+      `This is the Space Travel Hub website created with React using CRA CLI. It describes 
+      a number of features related to the rockets, and missions associated with providing 
+      commercial and scientific space travel services.`,
+    tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+    snapshot: './images/spaceTravelers.jpeg',
+    connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
+    connectionstext: ['See live', 'See source'],
+    connectionsURL: ['https://spacetravelers-vp0l.onrender.com/',
+      'https://github.com/HafizMassamTabraizKhan/spaceTravelers'],
+  },
+  {
+    name: 'ICPC',
+    cat: ['MICROVERSE', './images/Dot.png', 'Front-End Dev', './images/Dot.png', 2023],
+    description:
+    `It is a simple website about a programming contest known as the "International Collegiate Programming Contest(ICPC)". 
+    This website consists of  two pages only one is the  "Home Page" and the second is the "About Page", both pages comprise of
+    different sections like "Main Program", "Featured Speakers", "Sponsors", "Past Events", etc.`,
     tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/MyPortfolio1.png',
+    snapshot: './images/icpc.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
     connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Capstone-Project-1/',
       'https://github.com/HafizMassamTabraizKhan/Microverse-Capstone-Project-1'],
   },
   {
-    name: 'Multi-Post Stories',
-    cat: ['FACEBOOK', './images/Dot.png', 'Full Stack Dev', './images/Dot.png', 2015],
+    name: 'Test Drive Zone',
+    cat: ['MICROVERSE', './images/Dot.png', 'Full-stack Dev', './images/Dot.png', 2023],
     description:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/Portfolio2.png',
+      `This app is build using React and Rails. It allows users to schedule test drive 
+      appointments for cars. Users can add, delete, and view details of available cars, 
+      making it easy to manage appointments for test drives.`,
+    tags: ['Rails', 'JavaScript', 'React', 'Redux', 'API', 'PostgreSQL'],
+    snapshot: './images/testDrive.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
-    connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
-      'https://github.com/HafizMassamTabraizKhan/Microverse-Portfolio-Project'],
+    connectionsURL: ['https://car-rent-swa4.onrender.com/',
+      'https://github.com/HafizMassamTabraizKhan/book-an-appointment-back-end'],
   },
   {
-    name: 'Facebook 360',
-    cat: ['FACEBOOk', './images/Dot.png', 'Full Stack Dev', './images/Dot.png', 2015],
+    name: 'Ecommerce Shop',
+    cat: ['MICROVERSE', './images/Dot.png', 'Front-End Dev', './images/Dot.png', 2023],
     description:
-      'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    snapshot: './images/Portfolio3.png',
+      `Ecommerce Shop is a website built using React and Redux. It will display products 
+      from different categories retrieved from an API. You can also explore the details of 
+      each product and filter them via their categories.`,
+    tags: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'API'],
+    snapshot: './images/ecommerceShop.png',
     connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
     connectionstext: ['See live', 'See source'],
-    connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
-      'https://github.com/HafizMassamTabraizKhan/Microverse-Portfolio-Project'],
-  },
-  {
-    name: 'Uber Navigation',
-    cat: ['Uber', './images/Dot.png', 'Lead Developer', './images/Dot.png', 2018],
-    description:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    tags: ['HTML', 'CSS', 'Ruby on Rails', 'JavaScript'],
-    snapshot: './images/Portfolio4.png',
-    connectionsBtn: ['./images/live-link-icon.png', './images/github-icon.png'],
-    connectionstext: ['See live', 'See source'],
-    connectionsURL: ['https://hafizmassamtabraizkhan.github.io/Microverse-Portfolio-Project/',
-      'https://github.com/HafizMassamTabraizKhan/Microverse-Portfolio-Project'],
+    connectionsURL: ['https://ecommerce-shop-csp8.onrender.com/',
+      'https://github.com/HafizMassamTabraizKhan/react-capstone-project'],
   },
 ];
 
