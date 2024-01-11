@@ -184,7 +184,7 @@ function renderworks() {
 
     cardContent = '';
 
-    if (i === 0) { projectOverlay.classList.add('project-card', `card${i + 1}`); } else { projectOverlay.classList.add('project-card', 'card-margin', `card${i + 1}`); }
+    if (i === 0) { projectOverlay.classList.add('project-card', 'card-hover', `card${i + 1}`); } else { projectOverlay.classList.add('project-card', 'card-hover', 'card-margin', `card${i + 1}`); }
 
     cardContent += `
         

@@ -1,5 +1,6 @@
 * {
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
   list-style: none;
   text-decoration: none;
 }
@@ -82,6 +83,13 @@ nav {
   font-size: 32px;
   line-height: 44px;
   font-weight: 600;
+  transition-duration: 0.5s;
+}
+
+.menu-option:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+  color: #6070ff;
 }
 
 .active .blur-bg {
@@ -104,6 +112,7 @@ nav {
 
 .headline-section {
   margin: 20px;
+  animation: slideIn 1.5s ease-in-out;
 }
 
 .headline-section h1 {
@@ -113,6 +122,18 @@ nav {
   color: #172b4d;
   margin-top: 114px;
   margin-bottom: 0;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-150%);
+    color: #ff5733;
+  }
+
+  100% {
+    transform: translateX(0);
+    color: #05175f;
+  }
 }
 
 .text {
@@ -160,7 +181,19 @@ nav {
   border-radius: 16px;
   border: 1px solid #dfe1e6;
   align-items: center;
+
+  /* transform: translateX(200%);
+  transition: transform 0.5s ease ; */
 }
+
+/*
+.project-card:nth-of-type(even){
+  transform:translateX(-200%);
+}
+
+.project-card.show{
+  transform: translateX(0)
+} */
 
 .project-detail h3 {
   font-size: 30px;
@@ -317,7 +350,8 @@ button a {
   color: #396df2;
 }
 
-.social-media-icons li:hover {
+.fa-hover:hover {
+  color: #6070ff;
   transform: scale(1.5);
   transition: 0.5s;
 }
@@ -548,6 +582,12 @@ form button {
 
   .project-card {
     flex-direction: row;
+    transition-duration: 0.5s;
+  }
+
+  .card-hover:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
   }
 
   .project-card:nth-child(even) {
