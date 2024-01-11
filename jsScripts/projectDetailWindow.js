@@ -31,7 +31,7 @@ const works = [
     name: 'Test Drive Zone',
     cat: ['MICROVERSE', './images/Dot.png', 'Full-stack Dev', './images/Dot.png', 2023],
     description:
-      `This app is build using React and Rails. It allows users to schedule test drive 
+      `This app is built using React and Rails. It allows users to schedule test drive 
       appointments for cars. Users can add, delete, and view details of available cars, 
       making it easy to manage appointments for test drives.`,
     tags: ['Rails', 'JavaScript', 'React', 'Redux', 'API', 'PostgreSQL'],
@@ -90,7 +90,7 @@ const works2 = [
     name: 'Test Drive Zone',
     cat: ['MICROVERSE', './images/Dot.png', 'Full-stack Dev', './images/Dot.png', 2023],
     description:
-      `This app is build using React and Rails. It allows users to schedule test drive 
+      `This app is built using React and Rails. It allows users to schedule test drive 
       appointments for cars. Users can add, delete, and view details of available cars, 
       making it easy to manage appointments for test drives.`,
     tags: ['Rails', 'JavaScript', 'React', 'Redux', 'API', 'PostgreSQL'],
